@@ -1,0 +1,398 @@
+2024-01-19 21:48:32,358 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:48:32,361 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:48:32,363 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Firefox
+2024-01-19 21:48:38,237 [main] INFO  helpers.ui.BrowserOptionHelper.generalFirefoxOptions - 	 Driver - Firefox options done
+2024-01-19 21:48:40,814 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Firefox driver setup done
+2024-01-19 21:48:40,819 [main] INFO  helpers.ui.WaitHelper.generalImplicitWait - 	 Driver - Implicit wait done
+2024-01-19 21:48:40,819 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:48:42,600 [main] INFO  helpers.ui.UiHelper.pageLoadWait - 	 UiHelper - Page Load wait
+2024-01-19 21:48:42,600 [main] INFO  helpers.ui.UiHelper.driverGoToUrl - 	 UiHelper - Go to webUrl
+2024-01-19 21:48:42,600 [main] DEBUG stepdefs.ui.UiBaseStepDefs.goToPage - Step : go to enuygunTest page - is success
+2024-01-19 21:48:42,604 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,614 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //h1[@class='sc-70f39b27-4 PHAvU']
+2024-01-19 21:48:42,614 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,626 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']] is visible
+2024-01-19 21:48:42,626 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - isVisible[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']]
+2024-01-19 21:48:42,631 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page isVisible element anaSayfa - is success
+2024-01-19 21:48:42,632 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,634 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@data-testid='search-round-trip-text']
+2024-01-19 21:48:42,635 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,643 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //div[@data-testid='search-round-trip-text']] is visible
+2024-01-19 21:48:42,643 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,659 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:48:42,890 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:48:42,890 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:48:42,890 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element gidis-donus - is success
+2024-01-19 21:48:42,892 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,895 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-origin-autosuggestion-input']
+2024-01-19 21:48:42,895 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,903 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']] is visible
+2024-01-19 21:48:42,951 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: istanbul sabiha into [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']]
+2024-01-19 21:48:42,951 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys istanbul sabiha element nereden - is success
+2024-01-19 21:48:42,952 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,969 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']
+2024-01-19 21:48:42,969 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,983 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']] is visible
+2024-01-19 21:48:42,983 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:42,993 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:48:43,212 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:48:43,212 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:48:43,212 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element firstOption - is success
+2024-01-19 21:48:43,213 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:43,216 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-destination-autosuggestion-input']
+2024-01-19 21:48:43,216 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:43,223 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //input[@data-testid='endesign-flight-destination-autosuggestion-input']] is visible
+2024-01-19 21:48:43,252 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: ankara esen into [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //input[@data-testid='endesign-flight-destination-autosuggestion-input']]
+2024-01-19 21:48:43,252 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys ankara esen element nereye - is success
+2024-01-19 21:48:43,253 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:43,278 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']
+2024-01-19 21:48:43,279 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:43,285 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']] is visible
+2024-01-19 21:48:43,285 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:43,295 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:48:43,522 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:48:43,522 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:48:43,522 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element firstOptionReturn - is success
+2024-01-19 21:48:43,524 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:43,528 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']
+2024-01-19 21:48:43,528 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:43,536 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']] is visible
+2024-01-19 21:48:43,537 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:48:43,547 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']]
+2024-01-19 21:48:43,555 [main] ERROR helpers.ui.UiHelper.clickElement - 	 The method causing the error : UiHelper - clickElement.[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']]
+2024-01-19 21:48:43,555 [main] ERROR helpers.ui.UiHelper.elementActions - 	 The method causing the error : UiHelper - elementActions[[FirefoxDriver: firefox on mac (bd968c78-6dd4-43c5-b26d-3434db08f5c0)] -> xpath: //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']]
+2024-01-19 21:48:43,555 [main] ERROR stepdefs.ui.UiBaseStepDefs.elementAction - The method causing the error : UIBaseStepDefs - elementAction
+2024-01-19 21:49:06,904 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:49:06,907 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:49:06,909 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Firefox
+2024-01-19 21:49:08,442 [main] INFO  helpers.ui.BrowserOptionHelper.generalFirefoxOptions - 	 Driver - Firefox options done
+2024-01-19 21:49:10,502 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Firefox driver setup done
+2024-01-19 21:49:10,506 [main] INFO  helpers.ui.WaitHelper.generalImplicitWait - 	 Driver - Implicit wait done
+2024-01-19 21:49:10,507 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:49:11,537 [main] INFO  helpers.ui.UiHelper.pageLoadWait - 	 UiHelper - Page Load wait
+2024-01-19 21:49:11,537 [main] INFO  helpers.ui.UiHelper.driverGoToUrl - 	 UiHelper - Go to webUrl
+2024-01-19 21:49:11,537 [main] DEBUG stepdefs.ui.UiBaseStepDefs.goToPage - Step : go to enuygunTest page - is success
+2024-01-19 21:49:11,540 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,560 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //h1[@class='sc-70f39b27-4 PHAvU']
+2024-01-19 21:49:11,560 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,571 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']] is visible
+2024-01-19 21:49:11,571 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - isVisible[[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']]
+2024-01-19 21:49:11,572 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page isVisible element anaSayfa - is success
+2024-01-19 21:49:11,573 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,576 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@data-testid='search-round-trip-text']
+2024-01-19 21:49:11,576 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,583 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //div[@data-testid='search-round-trip-text']] is visible
+2024-01-19 21:49:11,584 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,601 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:49:11,834 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:49:11,834 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:49:11,834 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element gidis-donus - is success
+2024-01-19 21:49:11,835 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,838 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-origin-autosuggestion-input']
+2024-01-19 21:49:11,838 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,845 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']] is visible
+2024-01-19 21:49:11,888 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: istanbul sabiha into [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']]
+2024-01-19 21:49:11,888 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys istanbul sabiha element nereden - is success
+2024-01-19 21:49:11,889 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,938 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']
+2024-01-19 21:49:11,938 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,946 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']] is visible
+2024-01-19 21:49:11,946 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:11,965 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:49:12,188 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:49:12,189 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:49:12,189 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element firstOption - is success
+2024-01-19 21:49:12,189 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:12,192 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-destination-autosuggestion-input']
+2024-01-19 21:49:12,192 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:12,199 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //input[@data-testid='endesign-flight-destination-autosuggestion-input']] is visible
+2024-01-19 21:49:12,245 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: ankara esen into [[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //input[@data-testid='endesign-flight-destination-autosuggestion-input']]
+2024-01-19 21:49:12,245 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys ankara esen element nereye - is success
+2024-01-19 21:49:12,246 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:12,267 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']
+2024-01-19 21:49:12,267 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:12,281 [main] ERROR helpers.ui.UiHelper.isVisible - 	 The method causing the error : UiHelper - isVisible.[[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:49:12,281 [main] ERROR helpers.ui.UiHelper.clickElement - 	 The method causing the error : UiHelper - clickElement.[[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:49:12,281 [main] ERROR helpers.ui.UiHelper.elementActions - 	 The method causing the error : UiHelper - elementActions[[FirefoxDriver: firefox on mac (9d92afdb-a3c7-4470-88a8-dc415e6107ad)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:49:12,281 [main] ERROR stepdefs.ui.UiBaseStepDefs.elementAction - The method causing the error : UIBaseStepDefs - elementAction
+2024-01-19 21:49:30,118 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:49:30,121 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:49:30,122 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Firefox
+2024-01-19 21:49:31,648 [main] INFO  helpers.ui.BrowserOptionHelper.generalFirefoxOptions - 	 Driver - Firefox options done
+2024-01-19 21:49:33,716 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Firefox driver setup done
+2024-01-19 21:49:33,720 [main] INFO  helpers.ui.WaitHelper.generalImplicitWait - 	 Driver - Implicit wait done
+2024-01-19 21:49:33,721 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:49:34,700 [main] INFO  helpers.ui.UiHelper.pageLoadWait - 	 UiHelper - Page Load wait
+2024-01-19 21:49:34,700 [main] INFO  helpers.ui.UiHelper.driverGoToUrl - 	 UiHelper - Go to webUrl
+2024-01-19 21:49:34,700 [main] DEBUG stepdefs.ui.UiBaseStepDefs.goToPage - Step : go to enuygunTest page - is success
+2024-01-19 21:49:34,703 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:34,720 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //h1[@class='sc-70f39b27-4 PHAvU']
+2024-01-19 21:49:34,720 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:34,734 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']] is visible
+2024-01-19 21:49:34,734 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - isVisible[[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']]
+2024-01-19 21:49:34,735 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page isVisible element anaSayfa - is success
+2024-01-19 21:49:34,736 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:34,739 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@data-testid='search-round-trip-text']
+2024-01-19 21:49:34,739 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:34,746 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //div[@data-testid='search-round-trip-text']] is visible
+2024-01-19 21:49:34,747 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:34,783 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:49:35,019 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:49:35,019 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:49:35,020 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element gidis-donus - is success
+2024-01-19 21:49:35,021 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:35,025 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-origin-autosuggestion-input']
+2024-01-19 21:49:35,025 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:35,050 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']] is visible
+2024-01-19 21:49:35,113 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: istanbul sabiha into [[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']]
+2024-01-19 21:49:35,113 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys istanbul sabiha element nereden - is success
+2024-01-19 21:49:35,114 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:35,140 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']
+2024-01-19 21:49:35,141 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:49:35,156 [main] ERROR helpers.ui.UiHelper.isVisible - 	 The method causing the error : UiHelper - isVisible.[[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:49:35,157 [main] ERROR helpers.ui.UiHelper.clickElement - 	 The method causing the error : UiHelper - clickElement.[[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:49:35,157 [main] ERROR helpers.ui.UiHelper.elementActions - 	 The method causing the error : UiHelper - elementActions[[FirefoxDriver: firefox on mac (9ea5885e-a492-4a2a-bbb6-c44c61511cdb)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:49:35,157 [main] ERROR stepdefs.ui.UiBaseStepDefs.elementAction - The method causing the error : UIBaseStepDefs - elementAction
+2024-01-19 21:51:56,526 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:51:56,529 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:51:56,531 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Firefox
+2024-01-19 21:51:58,250 [main] INFO  helpers.ui.BrowserOptionHelper.generalFirefoxOptions - 	 Driver - Firefox options done
+2024-01-19 21:52:00,697 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Firefox driver setup done
+2024-01-19 21:52:00,701 [main] INFO  helpers.ui.WaitHelper.generalImplicitWait - 	 Driver - Implicit wait done
+2024-01-19 21:52:00,702 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:52:23,056 [main] ERROR helpers.ui.UiHelper.pageLoadWait - 	 The method causing the error : UiHelper - pageLoadWait
+2024-01-19 21:52:23,057 [main] ERROR helpers.ui.UiHelper.driverGoToUrl - 	 The method causing the error : UiHelper - driverGoToUrl
+2024-01-19 21:52:23,057 [main] ERROR stepdefs.ui.UiBaseStepDefs.goToPage - The method causing the error : UIBaseStepDefs - goToPage
+2024-01-19 21:53:06,799 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:53:06,802 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:53:06,804 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Firefox
+2024-01-19 21:53:08,487 [main] INFO  helpers.ui.BrowserOptionHelper.generalFirefoxOptions - 	 Driver - Firefox options done
+2024-01-19 21:53:10,316 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Firefox driver setup done
+2024-01-19 21:53:10,321 [main] INFO  helpers.ui.WaitHelper.generalImplicitWait - 	 Driver - Implicit wait done
+2024-01-19 21:53:10,321 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:53:11,248 [main] INFO  helpers.ui.UiHelper.pageLoadWait - 	 UiHelper - Page Load wait
+2024-01-19 21:53:11,249 [main] INFO  helpers.ui.UiHelper.driverGoToUrl - 	 UiHelper - Go to webUrl
+2024-01-19 21:53:11,249 [main] DEBUG stepdefs.ui.UiBaseStepDefs.goToPage - Step : go to enuygunTest page - is success
+2024-01-19 21:53:11,256 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,269 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //h1[@class='sc-70f39b27-4 PHAvU']
+2024-01-19 21:53:11,269 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,310 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']] is visible
+2024-01-19 21:53:11,310 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - isVisible[[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']]
+2024-01-19 21:53:11,311 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page isVisible element anaSayfa - is success
+2024-01-19 21:53:11,312 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,314 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@data-testid='search-round-trip-text']
+2024-01-19 21:53:11,315 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,324 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //div[@data-testid='search-round-trip-text']] is visible
+2024-01-19 21:53:11,324 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,340 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:53:11,594 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:53:11,595 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:53:11,595 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element gidis-donus - is success
+2024-01-19 21:53:11,596 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,608 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-origin-autosuggestion-input']
+2024-01-19 21:53:11,608 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,616 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']] is visible
+2024-01-19 21:53:11,667 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: istanbul sabiha into [[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']]
+2024-01-19 21:53:11,667 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys istanbul sabiha element nereden - is success
+2024-01-19 21:53:11,668 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,700 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']
+2024-01-19 21:53:11,700 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:11,721 [main] ERROR helpers.ui.UiHelper.isVisible - 	 The method causing the error : UiHelper - isVisible.[[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:53:11,721 [main] ERROR helpers.ui.UiHelper.clickElement - 	 The method causing the error : UiHelper - clickElement.[[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:53:11,721 [main] ERROR helpers.ui.UiHelper.elementActions - 	 The method causing the error : UiHelper - elementActions[[FirefoxDriver: firefox on mac (1ec5248f-4552-487f-a9e2-74abe6e07bc7)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:53:11,721 [main] ERROR stepdefs.ui.UiBaseStepDefs.elementAction - The method causing the error : UIBaseStepDefs - elementAction
+2024-01-19 21:53:48,909 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:53:48,912 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:53:48,914 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Firefox
+2024-01-19 21:53:50,683 [main] INFO  helpers.ui.BrowserOptionHelper.generalFirefoxOptions - 	 Driver - Firefox options done
+2024-01-19 21:53:52,350 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Firefox driver setup done
+2024-01-19 21:53:52,355 [main] INFO  helpers.ui.WaitHelper.generalImplicitWait - 	 Driver - Implicit wait done
+2024-01-19 21:53:52,355 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:53:53,857 [main] INFO  helpers.ui.UiHelper.pageLoadWait - 	 UiHelper - Page Load wait
+2024-01-19 21:53:53,857 [main] INFO  helpers.ui.UiHelper.driverGoToUrl - 	 UiHelper - Go to webUrl
+2024-01-19 21:53:53,857 [main] DEBUG stepdefs.ui.UiBaseStepDefs.goToPage - Step : go to enuygunTest page - is success
+2024-01-19 21:53:53,861 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:53,872 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //h1[@class='sc-70f39b27-4 PHAvU']
+2024-01-19 21:53:53,872 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:53,884 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']] is visible
+2024-01-19 21:53:53,884 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - isVisible[[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']]
+2024-01-19 21:53:53,890 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page isVisible element anaSayfa - is success
+2024-01-19 21:53:53,891 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:53,893 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@data-testid='search-round-trip-text']
+2024-01-19 21:53:53,893 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:53,900 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //div[@data-testid='search-round-trip-text']] is visible
+2024-01-19 21:53:53,900 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:53,916 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:53:54,149 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:53:54,149 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:53:54,149 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element gidis-donus - is success
+2024-01-19 21:53:54,150 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:54,153 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-origin-autosuggestion-input']
+2024-01-19 21:53:54,153 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:54,160 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']] is visible
+2024-01-19 21:53:54,210 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: istanbul sabiha into [[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']]
+2024-01-19 21:53:54,210 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys istanbul sabiha element nereden - is success
+2024-01-19 21:53:54,211 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:54,234 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']
+2024-01-19 21:53:54,234 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:53:54,248 [main] ERROR helpers.ui.UiHelper.isVisible - 	 The method causing the error : UiHelper - isVisible.[[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:53:54,248 [main] ERROR helpers.ui.UiHelper.clickElement - 	 The method causing the error : UiHelper - clickElement.[[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:53:54,248 [main] ERROR helpers.ui.UiHelper.elementActions - 	 The method causing the error : UiHelper - elementActions[[FirefoxDriver: firefox on mac (c5106ad1-314b-44e7-8aea-47d1be9041e2)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:53:54,248 [main] ERROR stepdefs.ui.UiBaseStepDefs.elementAction - The method causing the error : UIBaseStepDefs - elementAction
+2024-01-19 21:55:27,449 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:55:27,452 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:55:27,454 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Safari
+2024-01-19 21:55:27,548 [main] INFO  helpers.ui.BrowserOptionHelper.generalSafariOptions - 	 Driver - Safari options done
+2024-01-19 21:55:29,657 [main] ERROR helpers.ui.DriverHelper.setupDrivers - 	 Driver - Safari driver setup failed
+2024-01-19 21:55:29,658 [main] ERROR helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - Driver not initialized
+2024-01-19 21:55:29,658 [main] ERROR helpers.ui.DriverHelper.getCurrentDriver - Exception : SafariCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Eyyup-MacBook-Pro.local', ip: '2a02:ff0:3d0a:7589:6967:519d:62b8:4059%en0'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.2.1', java.version: '21'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [null, newSession {capabilities=[Capabilities {--incognito: true, browserName: safari, disable-dev-shm-usage: true, no-sandbox: true, start-maximized: true}]}]
+Capabilities {--incognito: true, browserName: safari, disable-dev-shm-usage: true, no-sandbox: true, start-maximized: true}
+2024-01-19 21:55:29,658 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:55:29,658 [main] ERROR helpers.ui.UiHelper.driverGoToUrl - 	 The method causing the error : UiHelper - driverGoToUrl
+2024-01-19 21:55:29,658 [main] ERROR stepdefs.ui.UiBaseStepDefs.goToPage - The method causing the error : UIBaseStepDefs - goToPage
+2024-01-19 21:55:54,865 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:55:54,868 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:55:54,870 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Firefox
+2024-01-19 21:55:56,687 [main] INFO  helpers.ui.BrowserOptionHelper.generalFirefoxOptions - 	 Driver - Firefox options done
+2024-01-19 21:55:58,304 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Firefox driver setup done
+2024-01-19 21:55:58,308 [main] INFO  helpers.ui.WaitHelper.generalImplicitWait - 	 Driver - Implicit wait done
+2024-01-19 21:55:58,308 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:55:59,350 [main] INFO  helpers.ui.UiHelper.pageLoadWait - 	 UiHelper - Page Load wait
+2024-01-19 21:55:59,350 [main] INFO  helpers.ui.UiHelper.driverGoToUrl - 	 UiHelper - Go to webUrl
+2024-01-19 21:55:59,351 [main] DEBUG stepdefs.ui.UiBaseStepDefs.goToPage - Step : go to enuygunTest page - is success
+2024-01-19 21:55:59,354 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,367 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //h1[@class='sc-70f39b27-4 PHAvU']
+2024-01-19 21:55:59,367 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,377 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']] is visible
+2024-01-19 21:55:59,377 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - isVisible[[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']]
+2024-01-19 21:55:59,379 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page isVisible element anaSayfa - is success
+2024-01-19 21:55:59,379 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,384 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@data-testid='search-round-trip-text']
+2024-01-19 21:55:59,384 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,391 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //div[@data-testid='search-round-trip-text']] is visible
+2024-01-19 21:55:59,391 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,407 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:55:59,647 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:55:59,648 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:55:59,648 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element gidis-donus - is success
+2024-01-19 21:55:59,649 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,651 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-origin-autosuggestion-input']
+2024-01-19 21:55:59,651 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,658 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']] is visible
+2024-01-19 21:55:59,704 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: istanbul sabiha into [[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']]
+2024-01-19 21:55:59,704 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys istanbul sabiha element nereden - is success
+2024-01-19 21:55:59,705 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,726 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']
+2024-01-19 21:55:59,727 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:55:59,739 [main] ERROR helpers.ui.UiHelper.isVisible - 	 The method causing the error : UiHelper - isVisible.[[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:55:59,740 [main] ERROR helpers.ui.UiHelper.clickElement - 	 The method causing the error : UiHelper - clickElement.[[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:55:59,740 [main] ERROR helpers.ui.UiHelper.elementActions - 	 The method causing the error : UiHelper - elementActions[[FirefoxDriver: firefox on mac (089e381b-be08-4140-86d6-f6eaeed1bd0a)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:55:59,740 [main] ERROR stepdefs.ui.UiBaseStepDefs.elementAction - The method causing the error : UIBaseStepDefs - elementAction
+2024-01-19 21:57:01,906 [main] INFO  helpers.ui.DriverHelper.<init> - 	 Driver - Driver constructor working and TestConfig called
+2024-01-19 21:57:01,909 [main] INFO  helpers.ui.UiHelper.<init> - 	 UiHelper - Driver is not null
+2024-01-19 21:57:01,911 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Browser name specified and changed : Chrome
+2024-01-19 21:57:04,038 [main] INFO  helpers.ui.BrowserOptionHelper.generalChromeOptions - 	 Driver - Chrome options done
+2024-01-19 21:57:06,215 [main] INFO  helpers.ui.DriverHelper.setupDrivers - 	 Driver - Chrome driver setup done
+2024-01-19 21:57:06,223 [main] INFO  helpers.ui.WaitHelper.generalImplicitWait - 	 Driver - Implicit wait done
+2024-01-19 21:57:06,223 [main] INFO  helpers.ui.DriverHelper.getCurrentDriver - 	 Driver - getCurrentDriver - Driver was null and initialized
+2024-01-19 21:57:07,426 [main] INFO  helpers.ui.UiHelper.pageLoadWait - 	 UiHelper - Page Load wait
+2024-01-19 21:57:07,426 [main] INFO  helpers.ui.UiHelper.driverGoToUrl - 	 UiHelper - Go to webUrl
+2024-01-19 21:57:07,426 [main] DEBUG stepdefs.ui.UiBaseStepDefs.goToPage - Step : go to enuygunTest page - is success
+2024-01-19 21:57:07,525 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,536 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //h1[@class='sc-70f39b27-4 PHAvU']
+2024-01-19 21:57:07,536 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,549 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']] is visible
+2024-01-19 21:57:07,549 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - isVisible[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //h1[@class='sc-70f39b27-4 PHAvU']]
+2024-01-19 21:57:07,551 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page isVisible element anaSayfa - is success
+2024-01-19 21:57:07,552 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,559 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@data-testid='search-round-trip-text']
+2024-01-19 21:57:07,559 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,568 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@data-testid='search-round-trip-text']] is visible
+2024-01-19 21:57:07,568 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,579 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:57:07,642 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:57:07,643 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@data-testid='search-round-trip-text']]
+2024-01-19 21:57:07,643 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element gidis-donus - is success
+2024-01-19 21:57:07,643 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,652 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-origin-autosuggestion-input']
+2024-01-19 21:57:07,652 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,659 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']] is visible
+2024-01-19 21:57:07,808 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: istanbul sabiha into [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //input[@data-testid='endesign-flight-origin-autosuggestion-input']]
+2024-01-19 21:57:07,809 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys istanbul sabiha element nereden - is success
+2024-01-19 21:57:07,809 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,835 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']
+2024-01-19 21:57:07,835 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,841 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']] is visible
+2024-01-19 21:57:07,841 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,855 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:57:07,892 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:57:07,893 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']]
+2024-01-19 21:57:07,893 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element firstOption - is success
+2024-01-19 21:57:07,893 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,902 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='endesign-flight-destination-autosuggestion-input']
+2024-01-19 21:57:07,902 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:07,908 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //input[@data-testid='endesign-flight-destination-autosuggestion-input']] is visible
+2024-01-19 21:57:07,977 [main] INFO  helpers.ui.UiHelper.sendKeys - UiHelper - Entered text: ankara esen into [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //input[@data-testid='endesign-flight-destination-autosuggestion-input']]
+2024-01-19 21:57:07,977 [main] DEBUG stepdefs.ui.UiBaseStepDefs.sendKeysAction - Step : i send keys ankara esen element nereye - is success
+2024-01-19 21:57:07,978 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,022 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']
+2024-01-19 21:57:08,022 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,028 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']] is visible
+2024-01-19 21:57:08,028 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,039 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:57:08,073 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:57:08,073 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']]
+2024-01-19 21:57:08,073 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element firstOptionReturn - is success
+2024-01-19 21:57:08,074 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,082 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']
+2024-01-19 21:57:08,082 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,088 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']] is visible
+2024-01-19 21:57:08,088 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,098 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']]
+2024-01-19 21:57:08,163 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']]
+2024-01-19 21:57:08,164 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']]
+2024-01-19 21:57:08,164 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element gidisTarihi - is success
+2024-01-19 21:57:08,346 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,353 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@data-testid='enuygun-homepage-flight-returnDate-label']
+2024-01-19 21:57:08,354 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,359 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@data-testid='enuygun-homepage-flight-returnDate-label']] is visible
+2024-01-19 21:57:08,359 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:08,369 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@data-testid='enuygun-homepage-flight-returnDate-label']]
+2024-01-19 21:57:08,417 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@data-testid='enuygun-homepage-flight-returnDate-label']]
+2024-01-19 21:57:08,417 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@data-testid='enuygun-homepage-flight-returnDate-label']]
+2024-01-19 21:57:08,418 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element donusTarihi - is success
+2024-01-19 21:57:11,423 [main] INFO  helpers.ui.UiHelper.independentWait - 	 UiHelper - Independent wait
+2024-01-19 21:57:11,553 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:11,561 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //button[@data-testid='enuygun-homepage-flight-submitButton']
+2024-01-19 21:57:11,561 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:11,567 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //button[@data-testid='enuygun-homepage-flight-submitButton']] is visible
+2024-01-19 21:57:11,567 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:11,575 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //button[@data-testid='enuygun-homepage-flight-submitButton']]
+2024-01-19 21:57:12,563 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //button[@data-testid='enuygun-homepage-flight-submitButton']]
+2024-01-19 21:57:12,563 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //button[@data-testid='enuygun-homepage-flight-submitButton']]
+2024-01-19 21:57:12,563 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element ucusArama - is success
+2024-01-19 21:57:12,564 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:14,485 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //span[text()='Bir Yolcu İçin Günlük Tahmini Fiyatlar']
+2024-01-19 21:57:14,486 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:14,492 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //span[text()='Bir Yolcu İçin Günlük Tahmini Fiyatlar']] is visible
+2024-01-19 21:57:14,492 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - isVisible[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //span[text()='Bir Yolcu İçin Günlük Tahmini Fiyatlar']]
+2024-01-19 21:57:14,492 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page isVisible element ucusSecimSayfası - is success
+2024-01-19 21:57:14,493 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:14,501 [main] INFO  helpers.ui.UiHelper.getWebElement - 	 UiHelper - getWebElement - //div[@class='ctx-filter-departure-return-time card-header']
+2024-01-19 21:57:14,501 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:14,507 [main] INFO  helpers.ui.UiHelper.isVisible - UiHelper - Element [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@class='ctx-filter-departure-return-time card-header']] is visible
+2024-01-19 21:57:14,507 [main] INFO  helpers.ui.WaitHelper.generalExplicitWait - 	 Driver - Explicit wait done
+2024-01-19 21:57:14,516 [main] INFO  helpers.ui.UiHelper.isClickable - 	 UiHelper - is clickable.[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@class='ctx-filter-departure-return-time card-header']]
+2024-01-19 21:57:14,544 [main] INFO  helpers.ui.UiHelper.clickElement - UiHelper - Clicked [[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@class='ctx-filter-departure-return-time card-header']]
+2024-01-19 21:57:14,545 [main] INFO  helpers.ui.UiHelper.elementActions - 	 UiHelper - elementActions - click[[ChromeDriver: chrome on mac (d5c09ef0f2c86518fd4ed729abe9c472)] -> xpath: //div[@class='ctx-filter-departure-return-time card-header']]
+2024-01-19 21:57:14,545 [main] DEBUG stepdefs.ui.UiBaseStepDefs.elementAction - Step : enuygunTest page click element kalkisSaati - is success
+2024-01-19 21:57:16,592 [main] INFO  helpers.ui.UiHelper.independentWait - 	 UiHelper - Independent wait
+2024-01-19 21:57:19,050 [main] INFO  helpers.ui.UiHelper.independentWait - 	 UiHelper - Independent wait
+2024-01-19 21:57:19,609 [main] INFO  helpers.ui.UiHelper.driverQuit - 	 UiHelper - Driver quit
+2024-01-19 21:57:19,609 [main] INFO  helpers.ui.UiHelper.driverActions - 	 UiHelper - driverActions - quit
+2024-01-19 21:57:19,609 [main] DEBUG stepdefs.ui.UiBaseStepDefs.driverAction - Step : driver quit - is success
