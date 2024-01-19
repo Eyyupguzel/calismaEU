@@ -1,5 +1,5 @@
 @test
-Feature: paribu
+Feature: enuygun
 
   Scenario: En Uygun - Istanbul/Ankara 10:00-18:00 Kalkis Listeleme
     Given go to enuygunTest page with Chrome
