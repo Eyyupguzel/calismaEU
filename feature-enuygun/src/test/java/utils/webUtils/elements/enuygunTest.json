@@ -1,0 +1,57 @@
+[
+  {
+    "method": "xpath",
+    "locator": "//input[@data-testid='endesign-flight-origin-autosuggestion-input']",
+    "name": "nereden"
+  },
+  {
+    "method": "xpath",
+    "locator": "//input[@data-testid='endesign-flight-destination-autosuggestion-input']",
+    "name": "nereye"
+  },
+  {
+    "method": "xpath",
+    "locator": "//li[@data-testid='endesign-flight-origin-autosuggestion-option-item-0']",
+    "name": "firstOption"
+  },
+  {
+    "method": "xpath",
+    "locator": "//li[@data-testid='endesign-flight-destination-autosuggestion-option-item-0']",
+    "name": "firstOptionReturn"
+  },
+  {
+    "method": "xpath",
+    "locator": "//div[@data-testid='search-round-trip-text']",
+    "name": "gidis-donus"
+  },
+  {
+    "method": "xpath",
+    "locator": "//input[@data-testid='enuygun-homepage-flight-departureDate-datepicker-input']",
+    "name": "gidisTarihi"
+  },
+  {
+    "method": "xpath",
+    "locator": "//div[@data-testid='enuygun-homepage-flight-returnDate-label']",
+    "name": "donusTarihi"
+  },
+  {
+    "method": "xpath",
+    "locator": "//button[@data-testid='enuygun-homepage-flight-submitButton']",
+    "name": "ucusArama"
+  },
+  {
+    "method": "xpath",
+    "locator": "//div[@class='ctx-filter-departure-return-time card-header']",
+    "name": "kalkisSaati"
+  },
+  {
+    "method": "xpath",
+    "locator": "//h1[@class='sc-70f39b27-4 PHAvU']",
+    "name": "anaSayfa"
+  },
+  {
+    "method": "xpath",
+    "locator": "//span[text()='Bir Yolcu İçin Günlük Tahmini Fiyatlar']",
+    "name": "ucusSecimSayfası"
+  }
+]
